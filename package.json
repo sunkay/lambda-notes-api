@@ -1,5 +1,5 @@
 {
-  "name": "notes-app-api",
+  "name": "lambda-notes-api",
   "version": "1.0.0",
   "description": "",
   "main": "handler.js",
