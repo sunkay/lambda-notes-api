@@ -1,3 +1,12 @@
 # lambda-notes-api
 
-4dde5ab0-3068-11e8-8963-9dff23987658
+Testing the API's
+
+npm install -g aws-api-gateway-cli-test
+
+apig-test \
+--username='admin@example.com' \
+--password='Passw0rd!' \ --user-pool-id='YOUR_COGNITO_USER_POOL_ID' \ --app-client-id='YOUR_COGNITO_APP_CLIENT_ID' \ --cognito-region='YOUR_COGNITO_REGION' \ --identity-pool-id='YOUR_IDENTITY_POOL_ID' \ --invoke-url='YOUR_API_GATEWAY_URL' \ --api-gateway-region='YOUR_API_GATEWAY_REGION' \ --path-template='/notes' \
+--method='POST' \
+--body='{"content":"hello world","attachment":"hello.jpg"}'
+
